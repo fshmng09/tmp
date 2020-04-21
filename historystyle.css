@@ -1,0 +1,106 @@
+
+
+  #history {
+    width: 100%;
+    margin: 50px auto;
+    padding: 50px 0;
+  }
+  #history h2 {
+    font-size:48px;
+    text-align: center;
+    margin: 10px auto;
+    color:white;
+    width: 100%;
+  }
+  
+  #history .inner {
+    width: 100%;
+    display: flex;
+  }
+  @media (max-width:1000px){
+    .inner{flex-wrap: wrap;}
+}
+  #history #slideShow {
+    display: flex;
+    margin:0 auto;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  #slideShow img{
+      width:100%;
+      border-radius: 10px;
+  }
+  #history #slideShow li {
+    margin:10px;
+    position: relative;
+  }
+  #history #slideShow li p, #history #slideShow li img{
+    display: block;
+    position: absolute;
+  }
+  
+  .historyImage .mask{
+    z-index: 10;
+    font-size: 14px;
+    line-height: 1.5;
+    vertical-align: middle;
+    color: #fff;
+    text-shadow: -1px -1px 1px black;
+    width: 186px;
+    height: 136px;
+    padding: 80px 20px 10px;
+    background: #000;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 16px;
+    display: block;
+    transition: 1s;
+    opacity: 0;
+  }
+
+  
+  .historyImage:hover .mask{
+      opacity: 0.8;
+  }
+
+  #history #biography {
+    padding-top:20px;
+    display: block;
+    margin:0 auto;
+    min-width: 300px;
+    width: 50%;
+  }
+
+  #history #biography dl {
+    vertical-align: middle;
+    border-bottom:1px solid gray ;
+    clear:both;
+  }
+  #history #biography dt {
+    height: 100%;
+    display: inline;
+    float: left;
+    width: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 2px;
+  }
+  #history #biography dd {
+    float: left;
+    width: 200px;
+    margin-top: 7px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  #history #biography .omission dt {
+    display: none;
+  }
+  #history #biography .omission dd {
+    width: 200px;
+    font-style: italic;
+  }
+  
+  

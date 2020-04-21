@@ -1,0 +1,78 @@
+#interest {
+    max-width: 820px;
+    width:100%
+    margin: 50px auto;
+    padding: 50px 0;
+  }
+#interest h2 {
+    font-size:48px;
+    text-align: center;
+    margin: 10px auto;
+    color:white;
+    width: 100%;
+}
+#interest img{
+
+    width:350px;
+}
+
+  #interest #interest1 p, #interest #interest2 p, #interest #interest3 p {
+    font-size: 14px;
+    line-height: 1.5;
+    width: 420px;
+    color: #fff;
+    text-shadow: -1px -1px 1px black;
+    text-indent: 1em;
+    margin: 0 auto;
+    padding:0 20px;
+  }
+  .interest-box{
+      width:100%;
+      margin:40px auto;
+  }
+  .clear{
+      clear:both;
+  }
+
+  .right{
+      float:right;
+  }
+  .left{
+      float:left;
+  }
+  @media(max-width:1000px){
+    .right{
+      width:100%;
+      float:none;
+      }
+    .left{
+      width:100%;
+      float:none;
+      }
+    .photo{text-align: center;}
+      .media{clear:both;}
+      
+      #interest h3{
+        text-align: center;
+      }
+  }
+
+  #interest h3 {
+    padding:0 20px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    color: white;
+  }
+  #interest h3 span {
+    display: block;
+  }
+  
+  #interest #interest1 h3 span {
+    height: 27px;
+    clear:both;
+  }
+  
+  #interest #interest2 h3 span {
+    height: 42px;
+    background-position: 0 -32px;
+  }
